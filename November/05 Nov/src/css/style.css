@@ -1,0 +1,12 @@
+body{
+    background-color: lightgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.data{
+    color: rebeccapurple;
+    text-decoration:line-through;
+}
+#mydata{
+    color:yellow;
+}
