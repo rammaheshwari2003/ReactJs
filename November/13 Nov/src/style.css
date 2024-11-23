@@ -1,0 +1,16 @@
+
+#ban{
+    width: 1000px;
+    margin-left: 100px;
+}
+
+#card{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+gap: 20px;
+}
+
+#foot{
+    width: 100%;
+    background-color: aqua;
+}
