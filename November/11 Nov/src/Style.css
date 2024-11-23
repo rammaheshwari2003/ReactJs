@@ -1,0 +1,17 @@
+body{
+    background-color: lightblue;
+}
+.emp{
+    background-color: wheat;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+
+
+}
+#empwrapper{
+    display: flex;
+    flex-wrap: wrap;
+
+}
