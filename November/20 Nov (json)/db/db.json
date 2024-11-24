@@ -1,0 +1,34 @@
+{
+    "Students":[
+        {
+            "rollno":121,
+            "name":"Ajay",
+            "city":"Bhopal",
+            "fees":45000
+        },
+        {
+            "rollno":122,
+            "name":"Vijay",
+            "city":"Indore",
+            "fees":55000
+        },
+        {
+            "rollno":123,
+            "name":"Vishal",
+            "city":"Ujjain",
+            "fees":50000
+        },
+        {
+            "rollno":124,
+            "name":"Manish",
+            "city":"Gwalior",
+            "fees":60000
+        },
+        {
+            "rollno":125,
+            "name":"Mohit",
+            "city":"Dewas",
+            "fees":65000
+        }
+    ]
+}
