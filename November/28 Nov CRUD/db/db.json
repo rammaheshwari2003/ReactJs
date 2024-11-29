@@ -13,6 +13,13 @@
       "price": "600",
       "author_name": "Rohit",
       "publish_year": "2020"
+    },
+    {
+      "id": "4a44",
+      "name": "Java Full Course",
+      "price": "1500",
+      "author_name": "Suresh",
+      "publish_year": "2024"
     }
   ]
 }
