@@ -12,7 +12,7 @@ const Update=()=>{
             setMydata(res.data);
         });
     }
-    
+     
     useEffect(()=>{
         loadData();
     },[])
@@ -65,11 +65,11 @@ const Update=()=>{
              <th>Publish Year</th>
              <th>Deleted</th>
              <th>Edit</th>
-                
+
             </tr>
             </thead>
             <tbody>
-                
+
             {ans}
             </tbody>
             </Table>
