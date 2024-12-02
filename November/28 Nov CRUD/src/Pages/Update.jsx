@@ -4,8 +4,12 @@ import axios from 'axios';
 import { message } from 'antd';
 import { MdDelete } from "react-icons/md";
 import { FaEdit } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
+
 const Update=()=>{
     const [mydata, setMydata]=useState([]);
+    const navigate=useNavigate();
+
     const loadData=()=>{
         let api="http://localhost:3000/Books";
         axios.get(api).then((res)=>{
@@ -23,6 +27,10 @@ const Update=()=>{
             message.error("Record successfully deleted");
             loadData();
         });
+    }
+
+    const myEdit=(id)=>{
+        navigate(`/edit/${id}`)
     }
 
     const ans=mydata.map((key)=>{
@@ -43,7 +51,7 @@ const Update=()=>{
                 </td>
 
                 <td>
-                    <a href="#">
+                    <a href="#" onClick={()=>{myEdit(key.id)}}>
                     <FaEdit />
                     </a>
                 </td>

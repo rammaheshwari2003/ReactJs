@@ -1,13 +1,6 @@
 {
   "Books": [
     {
-      "name": "Html",
-      "price": 500,
-      "author_name": "Aman",
-      "publish_year": 2008,
-      "id": "4374"
-    },
-    {
       "id": "9b94",
       "name": "Css Styling Complete",
       "price": "600",

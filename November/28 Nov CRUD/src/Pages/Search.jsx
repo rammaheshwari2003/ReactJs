@@ -6,7 +6,7 @@ import { message } from "antd";
 const Search=()=>{
     const [year, setYear]=useState("");
     const [mydata, setMydata]=useState([]);
-    const [errMsg, seterrMsg]=useState("");
+    // const [errMsg, seterrMsg]=useState("");
     const handleSubmit=()=>{
         let api=`http://localhost:3000/Books/?publish_year=${year}`;
         axios.get(api).then((res)=>{
