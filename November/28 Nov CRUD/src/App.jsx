@@ -19,7 +19,7 @@ const App=()=>{
          <Route path="search" element={<Search/>}/>
          <Route path="update" element={<Update/>}/>
          <Route path="edit/:id" element={<Edit/>}/>
-         </Route>
+         </Route> 
       </Routes>
       </BrowserRouter>
       </>
