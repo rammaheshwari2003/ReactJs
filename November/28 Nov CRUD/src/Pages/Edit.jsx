@@ -31,6 +31,7 @@ const Edit=()=>{
     }
     return(
         <>
+        <form style={{ paddingLeft:"35%",paddingRight:"35%", backgroundColor:"wheat", textAlign:"center"}}>
         <h1>Update Your Record :</h1>
         Edit Name : <input type="text" name="name" value={mydata.name} onChange={handleInput}/>
          <br />
@@ -41,7 +42,7 @@ const Edit=()=>{
         Edit Publish Year : <input type="text" name="publish_year" value={mydata.publish_year} onChange={handleInput}/> 
         <br />
         <button onClick={handleSubmit}>Update Save</button>
-        
+        </form>
         </>
     )
 }
