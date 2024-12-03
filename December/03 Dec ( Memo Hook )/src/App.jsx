@@ -35,7 +35,6 @@ const App=()=>{
    return(
 <>
          <h1>Welcome to Cybrom Bhopal</h1>
-      
          <h1>My Multipilication : {multi}</h1>
          <h1>My Increment : {mynum}</h1>
          <h1>My Decrement : {mydata}</h1>
