@@ -27,8 +27,8 @@ const Edit=()=>{
         axios.put(api, mydata).then((res)=>{
             message.success("Data Successfully Updated");
         })
-
     }
+    
     return(
         <>
         <form style={{ paddingLeft:"35%",paddingRight:"35%", backgroundColor:"wheat", textAlign:"center"}}>
