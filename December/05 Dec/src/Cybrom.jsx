@@ -11,7 +11,7 @@ const Cybrom=()=>{
         <button onClick={()=>{dispatch(increment())}}>Increment</button>
         <h1>{myval}</h1>
         <button onClick={()=>{dispatch(decrement())}}>decrement</button>
-        </>
+        </>    
     )
 }
 export default Cybrom;

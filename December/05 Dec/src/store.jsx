@@ -5,4 +5,4 @@ const store= configureStore({
         mycounter:countReducer
     }
 })
-export default store;
+export default store;      
