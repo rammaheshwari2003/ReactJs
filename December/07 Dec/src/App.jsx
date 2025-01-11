@@ -6,7 +6,7 @@ const App=()=>{
    return(
       <>
       <h1>Welcome to my app</h1>
-      <h2>{mynm}</h2>
+      <h2>{mynm}</h2> 
       <button onClick={()=>{dispatch(changeName())}}>Click Here</button>
       </>
    )
