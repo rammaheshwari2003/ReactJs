@@ -5,4 +5,4 @@ const store=configureStore({
         myname:nameReducer,
     }
 })
-export default store;
+export default store; 
